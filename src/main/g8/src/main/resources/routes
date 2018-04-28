@@ -4,7 +4,7 @@
 # ~~~~
 
 # An example controller showing a sample home page
-GET     /                           $package$.$name$.controllers.$name;format="Camel"$Controller.index
+GET     /                           $package$.$name;format="word"$.controllers.$name;format="Camel"$Controller.index
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

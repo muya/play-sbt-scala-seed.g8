@@ -1,4 +1,4 @@
-package $package$.$name$.controllers
+package $package$.$name;format="word"$.controllers
 
 import org.scalatestplus.play._
 import org.scalatestplus.play.guice._
