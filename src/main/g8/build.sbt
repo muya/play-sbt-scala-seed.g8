@@ -11,10 +11,10 @@ libraryDependencies += guice
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "$scalatestplusplay_version$" % Test
 
 // Adds additional packages into Twirl
-//TwirlKeys.templateImports += "$organization$.controllers._"
+//TwirlKeys.templateImports += "$package$.$name;format="word"$.controllers._"
 
-// Adds additional packages into conf/routes
-// play.sbt.routes.RoutesKeys.routesImport += "$organization$.binders._"
+// Adds additional packages into resources/routes
+// play.sbt.routes.RoutesKeys.routesImport += "$package$.$name;format="word"$.binders._"
 
 // disable default Play layout to enable SBT layout
 disablePlugins(PlayLayoutPlugin)
